@@ -4,19 +4,44 @@
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:EFCorePract.Pages"
+      xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
       mc:Ignorable="d" 
       d:DesignHeight="450" d:DesignWidth="800"
+      DataContext="{Binding RelativeSource={RelativeSource Self}}"
       Title="UserList">
+
+    
+       
 
     <Grid>
         <Grid.RowDefinitions>
-            <RowDefinition Height="40"/>
+            <RowDefinition Height="50"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
 
         <StackPanel Orientation="Horizontal">
-            <Button Click="GoEditPage">Добавить</Button>
-            <Button>Удалить</Button>
+            <Button Style="{DynamicResource AddButton}" Click="GoEditPage">Добавить</Button>
+            <Button Style="{DynamicResource DeleteButton}" Click="Delete">Удалить</Button>
         </StackPanel>
+
+        <ListView Grid.Row="1"
+                  ItemsSource="{Binding service.Users}"
+                  MouseDoubleClick="EditUser"
+                  SelectedItem="{Binding user}"
+                  Style="{DynamicResource ListViewStyle}">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel>
+                        <StackPanel>
+                            <TextBlock Style="{DynamicResource TextBlock}" Text="{Binding Login}"/>
+                            <TextBlock Style="{DynamicResource TextBlock}" Text="{Binding Name}"/>
+                            <TextBlock Style="{DynamicResource TextBlock}" Text="{Binding Email}"/>
+                            <TextBlock Style="{DynamicResource TextBlock}" Text="{Binding Password}"/>
+                            <TextBlock Style="{DynamicResource TextBlock}" Text="{Binding CreatedAt, StringFormat={}{0:dd.MM.yyyy}}"/>
+                        </StackPanel>
+                    </StackPanel>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
     </Grid>
 </Page>

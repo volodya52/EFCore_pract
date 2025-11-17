@@ -22,6 +22,8 @@ namespace EFCorePract.Pages
     /// </summary>
     public partial class UserList : Page
     {
+        public UserService service { get; set; }=new();
+        public Users? user { get; set; } = null;
         
         public UserList()
         {
@@ -34,6 +36,30 @@ namespace EFCorePract.Pages
             NavigationService.Navigate(new UsersPage());
         }
 
-        
+        public void EditUser(object sender, EventArgs e)
+        {
+            if (user == null)
+            {
+                MessageBox.Show("Выберите элемент из списка");
+                return;
+            }
+
+            NavigationService.Navigate(new UsersPage(user));
+        }
+
+        public void Delete(object sender, EventArgs e)
+        {
+            if(user == null)
+            {
+                MessageBox.Show("Выберите элемент из списка");
+                return;
+            }
+
+            if(MessageBox.Show("Вы действительно хотите удалить эту запись?","Удалить", MessageBoxButton.YesNo) == MessageBoxResult.Yes)
+            {
+                service.Remove(user);
+                MessageBox.Show("Запись удалена");
+            }
+        }
     }
 }

@@ -24,9 +24,15 @@ namespace EFCorePract.Pages
     {
         private UserService _userService = new();
         public Users _user = new();
-        public UsersPage()
+        bool isEdit=false;
+        public UsersPage(Users? _editUsers=null)
         {
             InitializeComponent();
+            if(_editUsers != null)
+            {
+                _user = _editUsers;
+                isEdit = true;
+            }
             DataContext = _user;
         }
 
@@ -37,9 +43,14 @@ namespace EFCorePract.Pages
 
         private void SaveUser(object sender, EventArgs e)
         {
-            _userService.Add(_user);
-            MessageBox.Show("Запись добавлена");
+            if (isEdit)
+                _userService.Commit();
+            else
+                _userService.Add(_user);
             NavigationService.GoBack();
+
+
+
         }
     }
 }

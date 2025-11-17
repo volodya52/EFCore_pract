@@ -3,7 +3,9 @@
       xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
       xmlns:local="clr-namespace:EFCorePract.Pages"
+      xmlns:validators="clr-namespace:EFCorePract.Validators"
       mc:Ignorable="d" 
       d:DesignHeight="450" d:DesignWidth="800"
       Title="UsersPage">
@@ -11,28 +13,73 @@
     <Grid>
         <StackPanel>
             <StackPanel>
-                <Label>Логин</Label>
-                <TextBox Text="{Binding Login}"/>
+                <Label Style="{DynamicResource Labels}" >Логин</Label>
+                <TextBox Style="{DynamicResource Login}">
+                    <TextBox.Text>
+                        <Binding Path="Login" UpdateSourceTrigger="PropertyChanged">
+                            <Binding.ValidationRules>
+                                <validators:EmptyText/>
+                                <validators:LoginCheck/>
+                                <validators:CheckLoginTwice/>
+                            </Binding.ValidationRules>
+                        </Binding>
+                    </TextBox.Text>
+                </TextBox>
             </StackPanel>
             <StackPanel>
-                <Label>Имя</Label>
-                <TextBox Text="{Binding Name}"/>
+                <Label Style="{DynamicResource Labels}">Имя</Label>
+                <TextBox Style="{DynamicResource Name}">
+                    <TextBox.Text>
+                        <Binding Path="Name" UpdateSourceTrigger="PropertyChanged">
+                            <Binding.ValidationRules>
+                                <validators:EmptyText/>
+                            </Binding.ValidationRules>
+                        </Binding>
+                    </TextBox.Text>
+                </TextBox>
             </StackPanel>
             <StackPanel>
-                <Label>Email</Label>
-                <TextBox Text="{Binding Email}"/>
+                <Label Style="{DynamicResource Labels}">Email</Label>
+                <TextBox Style="{DynamicResource Email}">
+                    <TextBox.Text>
+                        <Binding Path="Email" UpdateSourceTrigger="PropertyChanged">
+                            <Binding.ValidationRules>
+                                <validators:EmptyText/>
+                                <validators:CheckEmail/>
+                                <validators:CheckEmailTwice/>
+                            </Binding.ValidationRules>
+                        </Binding>
+                    </TextBox.Text>
+                </TextBox>
             </StackPanel>
             <StackPanel>
-                <Label>Пароль</Label>
-                <TextBox Text="{Binding Password}"/>
+                <Label Style="{DynamicResource Labels}">Пароль</Label>
+                <TextBox Style="{DynamicResource Password}">
+                    <TextBox.Text>
+                        <Binding Path="Password" UpdateSourceTrigger="PropertyChanged">
+                            <Binding.ValidationRules>
+                                <validators:EmptyText/>
+                                <validators:CheckPassword/>
+                            </Binding.ValidationRules>
+                        </Binding>
+                    </TextBox.Text>
+                </TextBox>
             </StackPanel>
             <StackPanel>
-                <Label>Дата создания</Label>
-                <DatePicker SelectedDate="{Binding CreatedAt}"/>
+                <Label Style="{DynamicResource Labels}">Дата создания</Label>
+                <DatePicker Style="{DynamicResource DateTimePicker}">
+                    <DatePicker.SelectedDate>
+                        <Binding Path="CreatedAt" UpdateSourceTrigger="PropertyChanged">
+                            <Binding.ValidationRules>
+                                <validators:CheckDate/>
+                            </Binding.ValidationRules>
+                        </Binding>
+                    </DatePicker.SelectedDate>
+                </DatePicker>
             </StackPanel>
             <StackPanel>
-                <Button Click="SaveUser">Сохранить</Button>
-                <Button Click="GoBack">Назад</Button>
+                <Button Style="{DynamicResource SaveButton}" Click="SaveUser">Сохранить</Button>
+                <Button Style="{DynamicResource BackButton}" Click="GoBack">Назад</Button>
             </StackPanel>
         </StackPanel>
     </Grid>
