@@ -6,9 +6,14 @@
       xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
       xmlns:local="clr-namespace:EFCorePract.Pages"
       xmlns:validators="clr-namespace:EFCorePract.Validators"
+      xmlns:service="clr-namespace:EFCorePract.Service"
       mc:Ignorable="d" 
       d:DesignHeight="450" d:DesignWidth="800"
       Title="UsersPage">
+
+    <Page.Resources>
+        <service:RoleService x:Key="rService"/>
+    </Page.Resources>
 
     <Grid>
         <StackPanel>
@@ -76,6 +81,61 @@
                         </Binding>
                     </DatePicker.SelectedDate>
                 </DatePicker>
+            </StackPanel>
+            <StackPanel>
+                <Label Style="{DynamicResource Labels}">Ссылка на изображение</Label>
+                <TextBox Style="{DynamicResource Login}">
+                    <TextBox.Text>
+                        <Binding Path="UserProfile.AvatarUrl" UpdateSourceTrigger="PropertyChanged">
+                            <Binding.ValidationRules>
+                                <validators:EmptyText/>
+                            </Binding.ValidationRules>
+                        </Binding>
+                    </TextBox.Text>
+                </TextBox>
+            </StackPanel>
+            <StackPanel>
+                <Label Style="{DynamicResource Labels}">Номер телефона</Label>
+                <TextBox Style="{DynamicResource Login}">
+                    <TextBox.Text>
+                        <Binding Path="UserProfile.Phone" UpdateSourceTrigger="PropertyChanged">
+                            <Binding.ValidationRules>
+                                <validators:EmptyText/>
+                            </Binding.ValidationRules>
+                        </Binding>
+                    </TextBox.Text>
+                </TextBox>
+            </StackPanel>
+            <StackPanel>
+                <Label Style="{DynamicResource Labels}">Дата рождения</Label>
+                <DatePicker Style="{DynamicResource DateTimePicker}">
+                    <DatePicker.SelectedDate>
+                        <Binding Path="UserProfile.Birthday" UpdateSourceTrigger="PropertyChanged">
+                            <Binding.ValidationRules>
+                                <validators:CheckDate/>
+                            </Binding.ValidationRules>
+                        </Binding>
+                    </DatePicker.SelectedDate>
+                </DatePicker>
+            </StackPanel>
+            <StackPanel>
+                <Label Style="{DynamicResource Labels}">Биография</Label>
+                <TextBox Style="{DynamicResource Login}">
+                    <TextBox.Text>
+                        <Binding Path="UserProfile.Bio" UpdateSourceTrigger="PropertyChanged">
+                            <Binding.ValidationRules>
+                                <validators:EmptyText/>
+                            </Binding.ValidationRules>
+                        </Binding>
+                    </TextBox.Text>
+                </TextBox>
+            </StackPanel>
+            <StackPanel>
+                <Label Style="{DynamicResource Labels}">Роль:</Label>
+                <ComboBox Style="{DynamicResource RoleComboBox}"
+                          ItemsSource="{Binding Source={StaticResource rService}, Path=Roles}"
+                          DisplayMemberPath="Title"
+                          SelectedItem="{Binding Role}"/>
             </StackPanel>
             <StackPanel>
                 <Button Style="{DynamicResource SaveButton}" Click="SaveUser">Сохранить</Button>

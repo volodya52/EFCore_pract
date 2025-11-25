@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\pluhi\OneDrive\Desktop\EFCorePract\EFCorePract\obj\Debug\net8.0-windows\
+C:\Users\st310-05\Documents\lll\EFCore_pract\EFCorePract\obj\Debug\net8.0-windows\
 EFCorePract
 none
 false
-TRACE;DEBUG;NET;NET8_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
-C:\Users\pluhi\OneDrive\Desktop\EFCorePract\EFCorePract\App.xaml
-92057446545
+TRACE;DEBUG;NET;NET8_0;NETCOREAPP
+C:\Users\st310-05\Documents\lll\EFCore_pract\EFCorePract\App.xaml
+10-240221820
 
-25518685917
-2311192008169
-MainWindow.xaml;Pages\UserList.xaml;Pages\UsersPage.xaml;Styles\Buttons.xaml;Styles\DatePickers.xaml;Styles\Labels.xaml;Styles\ListView.xaml;Styles\TextBlocks.xaml;Styles\TextBoxes.xaml;
+341357854369
+231-1975864825
+MainWindow.xaml;Pages\UserList.xaml;Pages\UsersPage.xaml;Styles\Buttons.xaml;Styles\ComboBox.xaml;Styles\DatePickers.xaml;Styles\Labels.xaml;Styles\ListView.xaml;Styles\TextBlocks.xaml;Styles\TextBoxes.xaml;
 
 True
 

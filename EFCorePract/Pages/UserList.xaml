@@ -38,6 +38,11 @@
                             <TextBlock Style="{DynamicResource TextBlock}" Text="{Binding Email}"/>
                             <TextBlock Style="{DynamicResource TextBlock}" Text="{Binding Password}"/>
                             <TextBlock Style="{DynamicResource TextBlock}" Text="{Binding CreatedAt, StringFormat={}{0:dd.MM.yyyy}}"/>
+                            <TextBlock Style="{DynamicResource TextBlock}" Text="{Binding UserProfile.AvatarUrl}"/>
+                            <TextBlock Style="{DynamicResource TextBlock}" Text="{Binding UserProfile.Phone}"/>
+                            <TextBlock Style="{DynamicResource TextBlock}" Text="{Binding UserProfile.Birthday, StringFormat={}{0:dd.MM.yyyy}}"/>
+                            <TextBlock Style="{DynamicResource TextBlock}" Text="{Binding UserProfile.Bio}"/>
+                            <TextBlock Style="{DynamicResource TextBlock}" Text="{Binding Role.Title}"/>
                         </StackPanel>
                     </StackPanel>
                 </DataTemplate>

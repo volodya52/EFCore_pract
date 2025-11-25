@@ -1,5 +1,6 @@
 ﻿using EFCorePract.Data;
 using EFCorePract.Models;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -29,6 +30,8 @@ namespace EFCorePract.Service
                 Email = user.Email,
                 Password = user.Password,
                 CreatedAt = user.CreatedAt,
+                UserProfile=user.UserProfile,
+                Role=user.Role
             };
             _db.Users.Add(_user);
             Commit();
@@ -38,7 +41,10 @@ namespace EFCorePract.Service
 
         public void GetAll()
         {
-            var users= _db.Users.ToList();
+            var users = _db.Users
+                .Include(s => s.UserProfile)
+                .Include(s=>s.Role)
+                .ToList( );
             Users.Clear();
             foreach (var user in users)
             {

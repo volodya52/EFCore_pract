@@ -1,53 +1,61 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\pluhi\\OneDrive\\Desktop\\EFCorePract\\",
+  "WorkspaceRootPath": "C:\\Users\\st310-05\\Documents\\lll\\EFCore_pract\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8131CDEA-47C4-4C2F-8216-98D52BAF2982}|EFCorePract\\EFCorePract.csproj|c:\\users\\pluhi\\onedrive\\desktop\\efcorepract\\efcorepract\\pages\\userspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{8131CDEA-47C4-4C2F-8216-98D52BAF2982}|EFCorePract\\EFCorePract.csproj|solutionrelative:efcorepract\\pages\\userspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8131CDEA-47C4-4C2F-8216-98D52BAF2982}|EFCorePract\\EFCorePract.csproj|c:\\users\\pluhi\\onedrive\\desktop\\efcorepract\\efcorepract\\pages\\userlist.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{8131CDEA-47C4-4C2F-8216-98D52BAF2982}|EFCorePract\\EFCorePract.csproj|solutionrelative:efcorepract\\pages\\userlist.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8131CDEA-47C4-4C2F-8216-98D52BAF2982}|EFCorePract\\EFCorePract.csproj|c:\\users\\pluhi\\onedrive\\desktop\\efcorepract\\efcorepract\\validators\\checkemailtwice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8131CDEA-47C4-4C2F-8216-98D52BAF2982}|EFCorePract\\EFCorePract.csproj|solutionrelative:efcorepract\\validators\\checkemailtwice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8131CDEA-47C4-4C2F-8216-98D52BAF2982}|EFCorePract\\EFCorePract.csproj|c:\\users\\pluhi\\onedrive\\desktop\\efcorepract\\efcorepract\\validators\\checklogintwice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8131CDEA-47C4-4C2F-8216-98D52BAF2982}|EFCorePract\\EFCorePract.csproj|solutionrelative:efcorepract\\validators\\checklogintwice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8131CDEA-47C4-4C2F-8216-98D52BAF2982}|EFCorePract\\EFCorePract.csproj|c:\\users\\pluhi\\onedrive\\desktop\\efcorepract\\efcorepract\\service\\basedbservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8131CDEA-47C4-4C2F-8216-98D52BAF2982}|EFCorePract\\EFCorePract.csproj|solutionrelative:efcorepract\\service\\basedbservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8131CDEA-47C4-4C2F-8216-98D52BAF2982}|EFCorePract\\EFCorePract.csproj|c:\\users\\pluhi\\onedrive\\desktop\\efcorepract\\efcorepract\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8131CDEA-47C4-4C2F-8216-98D52BAF2982}|EFCorePract\\EFCorePract.csproj|C:\\Users\\st310-05\\Documents\\lll\\EFCore_pract\\efcorepract\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8131CDEA-47C4-4C2F-8216-98D52BAF2982}|EFCorePract\\EFCorePract.csproj|solutionrelative:efcorepract\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8131CDEA-47C4-4C2F-8216-98D52BAF2982}|EFCorePract\\EFCorePract.csproj|c:\\users\\pluhi\\onedrive\\desktop\\efcorepract\\efcorepract\\service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8131CDEA-47C4-4C2F-8216-98D52BAF2982}|EFCorePract\\EFCorePract.csproj|c:\\users\\st310-05\\documents\\lll\\efcore_pract\\efcorepract\\migrations\\20251125083041_addtablerole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8131CDEA-47C4-4C2F-8216-98D52BAF2982}|EFCorePract\\EFCorePract.csproj|solutionrelative:efcorepract\\migrations\\20251125083041_addtablerole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8131CDEA-47C4-4C2F-8216-98D52BAF2982}|EFCorePract\\EFCorePract.csproj|C:\\Users\\st310-05\\Documents\\lll\\EFCore_pract\\efcorepract\\pages\\userlist.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{8131CDEA-47C4-4C2F-8216-98D52BAF2982}|EFCorePract\\EFCorePract.csproj|solutionrelative:efcorepract\\pages\\userlist.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8131CDEA-47C4-4C2F-8216-98D52BAF2982}|EFCorePract\\EFCorePract.csproj|C:\\Users\\st310-05\\Documents\\lll\\EFCore_pract\\efcorepract\\service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8131CDEA-47C4-4C2F-8216-98D52BAF2982}|EFCorePract\\EFCorePract.csproj|solutionrelative:efcorepract\\service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8131CDEA-47C4-4C2F-8216-98D52BAF2982}|EFCorePract\\EFCorePract.csproj|c:\\users\\pluhi\\onedrive\\desktop\\efcorepract\\efcorepract\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8131CDEA-47C4-4C2F-8216-98D52BAF2982}|EFCorePract\\EFCorePract.csproj|c:\\users\\st310-05\\documents\\lll\\efcore_pract\\efcorepract\\service\\roleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8131CDEA-47C4-4C2F-8216-98D52BAF2982}|EFCorePract\\EFCorePract.csproj|solutionrelative:efcorepract\\service\\roleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8131CDEA-47C4-4C2F-8216-98D52BAF2982}|EFCorePract\\EFCorePract.csproj|c:\\users\\st310-05\\documents\\lll\\efcore_pract\\efcorepract\\pages\\userspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{8131CDEA-47C4-4C2F-8216-98D52BAF2982}|EFCorePract\\EFCorePract.csproj|solutionrelative:efcorepract\\pages\\userspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8131CDEA-47C4-4C2F-8216-98D52BAF2982}|EFCorePract\\EFCorePract.csproj|c:\\users\\st310-05\\documents\\lll\\efcore_pract\\efcorepract\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8131CDEA-47C4-4C2F-8216-98D52BAF2982}|EFCorePract\\EFCorePract.csproj|solutionrelative:efcorepract\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8131CDEA-47C4-4C2F-8216-98D52BAF2982}|EFCorePract\\EFCorePract.csproj|C:\\Users\\st310-05\\Documents\\lll\\EFCore_pract\\efcorepract\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8131CDEA-47C4-4C2F-8216-98D52BAF2982}|EFCorePract\\EFCorePract.csproj|solutionrelative:efcorepract\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8131CDEA-47C4-4C2F-8216-98D52BAF2982}|EFCorePract\\EFCorePract.csproj|c:\\users\\pluhi\\onedrive\\desktop\\efcorepract\\efcorepract\\pages\\userspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8131CDEA-47C4-4C2F-8216-98D52BAF2982}|EFCorePract\\EFCorePract.csproj|c:\\users\\st310-05\\documents\\lll\\efcore_pract\\efcorepract\\models\\userprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8131CDEA-47C4-4C2F-8216-98D52BAF2982}|EFCorePract\\EFCorePract.csproj|solutionrelative:efcorepract\\models\\userprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8131CDEA-47C4-4C2F-8216-98D52BAF2982}|EFCorePract\\EFCorePract.csproj|c:\\users\\st310-05\\documents\\lll\\efcore_pract\\efcorepract\\service\\basedbservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8131CDEA-47C4-4C2F-8216-98D52BAF2982}|EFCorePract\\EFCorePract.csproj|solutionrelative:efcorepract\\service\\basedbservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8131CDEA-47C4-4C2F-8216-98D52BAF2982}|EFCorePract\\EFCorePract.csproj|C:\\Users\\st310-05\\Documents\\lll\\EFCore_pract\\efcorepract\\pages\\userspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8131CDEA-47C4-4C2F-8216-98D52BAF2982}|EFCorePract\\EFCorePract.csproj|solutionrelative:efcorepract\\pages\\userspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8131CDEA-47C4-4C2F-8216-98D52BAF2982}|EFCorePract\\EFCorePract.csproj|c:\\users\\pluhi\\onedrive\\desktop\\efcorepract\\efcorepract\\pages\\userlist.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8131CDEA-47C4-4C2F-8216-98D52BAF2982}|EFCorePract\\EFCorePract.csproj|C:\\Users\\st310-05\\Documents\\lll\\EFCore_pract\\efcorepract\\pages\\userlist.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8131CDEA-47C4-4C2F-8216-98D52BAF2982}|EFCorePract\\EFCorePract.csproj|solutionrelative:efcorepract\\pages\\userlist.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8131CDEA-47C4-4C2F-8216-98D52BAF2982}|EFCorePract\\EFCorePract.csproj|c:\\users\\pluhi\\onedrive\\desktop\\efcorepract\\efcorepract\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{8131CDEA-47C4-4C2F-8216-98D52BAF2982}|EFCorePract\\EFCorePract.csproj|C:\\Users\\st310-05\\Documents\\lll\\EFCore_pract\\efcorepract\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{8131CDEA-47C4-4C2F-8216-98D52BAF2982}|EFCorePract\\EFCorePract.csproj|solutionrelative:efcorepract\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8131CDEA-47C4-4C2F-8216-98D52BAF2982}|EFCorePract\\EFCorePract.csproj|c:\\users\\pluhi\\onedrive\\desktop\\efcorepract\\efcorepract\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8131CDEA-47C4-4C2F-8216-98D52BAF2982}|EFCorePract\\EFCorePract.csproj|C:\\Users\\st310-05\\Documents\\lll\\EFCore_pract\\efcorepract\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8131CDEA-47C4-4C2F-8216-98D52BAF2982}|EFCorePract\\EFCorePract.csproj|solutionrelative:efcorepract\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -58,15 +66,80 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
+              "Title": "RoleService.cs",
+              "DocumentMoniker": "C:\\Users\\st310-05\\Documents\\lll\\EFCore_pract\\EFCorePract\\Service\\RoleService.cs",
+              "RelativeDocumentMoniker": "EFCorePract\\Service\\RoleService.cs",
+              "ToolTip": "C:\\Users\\st310-05\\Documents\\lll\\EFCore_pract\\EFCorePract\\Service\\RoleService.cs",
+              "RelativeToolTip": "EFCorePract\\Service\\RoleService.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAwC8AAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T08:35:37.921Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "20251125083041_AddTableRole.cs",
+              "DocumentMoniker": "C:\\Users\\st310-05\\Documents\\lll\\EFCore_pract\\EFCorePract\\Migrations\\20251125083041_AddTableRole.cs",
+              "RelativeDocumentMoniker": "EFCorePract\\Migrations\\20251125083041_AddTableRole.cs",
+              "ToolTip": "C:\\Users\\st310-05\\Documents\\lll\\EFCore_pract\\EFCorePract\\Migrations\\20251125083041_AddTableRole.cs",
+              "RelativeToolTip": "EFCorePract\\Migrations\\20251125083041_AddTableRole.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAiwCEAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T08:30:41.685Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Role.cs",
+              "DocumentMoniker": "C:\\Users\\st310-05\\Documents\\lll\\EFCore_pract\\EFCorePract\\Models\\Role.cs",
+              "RelativeDocumentMoniker": "EFCorePract\\Models\\Role.cs",
+              "ToolTip": "C:\\Users\\st310-05\\Documents\\lll\\EFCore_pract\\EFCorePract\\Models\\Role.cs",
+              "RelativeToolTip": "EFCorePract\\Models\\Role.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAcwB0AAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T08:21:21.305Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "BaseDBService.cs",
+              "DocumentMoniker": "C:\\Users\\st310-05\\Documents\\lll\\EFCore_pract\\EFCorePract\\Service\\BaseDBService.cs",
+              "RelativeDocumentMoniker": "EFCorePract\\Service\\BaseDBService.cs",
+              "ToolTip": "C:\\Users\\st310-05\\Documents\\lll\\EFCore_pract\\EFCorePract\\Service\\BaseDBService.cs",
+              "RelativeToolTip": "EFCorePract\\Service\\BaseDBService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T08:20:08.806Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UserProfile.cs",
+              "DocumentMoniker": "C:\\Users\\st310-05\\Documents\\lll\\EFCore_pract\\EFCorePract\\Models\\UserProfile.cs",
+              "RelativeDocumentMoniker": "EFCorePract\\Models\\UserProfile.cs",
+              "ToolTip": "C:\\Users\\st310-05\\Documents\\lll\\EFCore_pract\\EFCorePract\\Models\\UserProfile.cs",
+              "RelativeToolTip": "EFCorePract\\Models\\UserProfile.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAYwDEAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T07:32:33.488Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "UsersPage.xaml",
-              "DocumentMoniker": "C:\\Users\\pluhi\\OneDrive\\Desktop\\EFCorePract\\EFCorePract\\Pages\\UsersPage.xaml",
+              "DocumentMoniker": "C:\\Users\\st310-05\\Documents\\lll\\EFCore_pract\\EFCorePract\\Pages\\UsersPage.xaml",
               "RelativeDocumentMoniker": "EFCorePract\\Pages\\UsersPage.xaml",
-              "ToolTip": "C:\\Users\\pluhi\\OneDrive\\Desktop\\EFCorePract\\EFCorePract\\Pages\\UsersPage.xaml",
+              "ToolTip": "C:\\Users\\st310-05\\Documents\\lll\\EFCore_pract\\EFCorePract\\Pages\\UsersPage.xaml",
               "RelativeToolTip": "EFCorePract\\Pages\\UsersPage.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-11-17T18:10:03.14Z",
@@ -75,49 +148,10 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "CheckEmailTwice.cs",
-              "DocumentMoniker": "C:\\Users\\pluhi\\OneDrive\\Desktop\\EFCorePract\\EFCorePract\\Validators\\CheckEmailTwice.cs",
-              "RelativeDocumentMoniker": "EFCorePract\\Validators\\CheckEmailTwice.cs",
-              "ToolTip": "C:\\Users\\pluhi\\OneDrive\\Desktop\\EFCorePract\\EFCorePract\\Validators\\CheckEmailTwice.cs",
-              "RelativeToolTip": "EFCorePract\\Validators\\CheckEmailTwice.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-17T18:07:08.172Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "BaseDBService.cs",
-              "DocumentMoniker": "C:\\Users\\pluhi\\OneDrive\\Desktop\\EFCorePract\\EFCorePract\\Service\\BaseDBService.cs",
-              "RelativeDocumentMoniker": "EFCorePract\\Service\\BaseDBService.cs",
-              "ToolTip": "C:\\Users\\pluhi\\OneDrive\\Desktop\\EFCorePract\\EFCorePract\\Service\\BaseDBService.cs",
-              "RelativeToolTip": "EFCorePract\\Service\\BaseDBService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-17T17:43:33.188Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CheckLoginTwice.cs",
-              "DocumentMoniker": "C:\\Users\\pluhi\\OneDrive\\Desktop\\EFCorePract\\EFCorePract\\Validators\\CheckLoginTwice.cs",
-              "RelativeDocumentMoniker": "EFCorePract\\Validators\\CheckLoginTwice.cs",
-              "ToolTip": "C:\\Users\\pluhi\\OneDrive\\Desktop\\EFCorePract\\EFCorePract\\Validators\\CheckLoginTwice.cs",
-              "RelativeToolTip": "EFCorePract\\Validators\\CheckLoginTwice.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAABFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-17T17:41:42.893Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "UserList.xaml",
-              "DocumentMoniker": "C:\\Users\\pluhi\\OneDrive\\Desktop\\EFCorePract\\EFCorePract\\Pages\\UserList.xaml",
+              "DocumentMoniker": "C:\\Users\\st310-05\\Documents\\lll\\EFCore_pract\\EFCorePract\\Pages\\UserList.xaml",
               "RelativeDocumentMoniker": "EFCorePract\\Pages\\UserList.xaml",
-              "ToolTip": "C:\\Users\\pluhi\\OneDrive\\Desktop\\EFCorePract\\EFCorePract\\Pages\\UserList.xaml",
+              "ToolTip": "C:\\Users\\st310-05\\Documents\\lll\\EFCore_pract\\EFCorePract\\Pages\\UserList.xaml",
               "RelativeToolTip": "EFCorePract\\Pages\\UserList.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-11-16T16:56:31.651Z",
@@ -125,93 +159,104 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
               "Title": "UserService.cs",
-              "DocumentMoniker": "C:\\Users\\pluhi\\OneDrive\\Desktop\\EFCorePract\\EFCorePract\\Service\\UserService.cs",
+              "DocumentMoniker": "C:\\Users\\st310-05\\Documents\\lll\\EFCore_pract\\EFCorePract\\Service\\UserService.cs",
               "RelativeDocumentMoniker": "EFCorePract\\Service\\UserService.cs",
-              "ToolTip": "C:\\Users\\pluhi\\OneDrive\\Desktop\\EFCorePract\\EFCorePract\\Service\\UserService.cs",
+              "ToolTip": "C:\\Users\\st310-05\\Documents\\lll\\EFCore_pract\\EFCorePract\\Service\\UserService.cs",
               "RelativeToolTip": "EFCorePract\\Service\\UserService.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB4AAAArAAAAAAAAAA==",
+              "ViewState": "AQIAABgAAAAAAAAAAAAgwC0AAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-17T07:29:06.307Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "UsersPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\pluhi\\OneDrive\\Desktop\\EFCorePract\\EFCorePract\\Pages\\UsersPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\st310-05\\Documents\\lll\\EFCore_pract\\EFCorePract\\Pages\\UsersPage.xaml.cs",
               "RelativeDocumentMoniker": "EFCorePract\\Pages\\UsersPage.xaml.cs",
-              "ToolTip": "C:\\Users\\pluhi\\OneDrive\\Desktop\\EFCorePract\\EFCorePract\\Pages\\UsersPage.xaml.cs",
+              "ToolTip": "C:\\Users\\st310-05\\Documents\\lll\\EFCore_pract\\EFCorePract\\Pages\\UsersPage.xaml.cs",
               "RelativeToolTip": "EFCorePract\\Pages\\UsersPage.xaml.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAADEAAAAnAAAAAAAAAA==",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAACQAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-16T17:30:07.685Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "UserList.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\pluhi\\OneDrive\\Desktop\\EFCorePract\\EFCorePract\\Pages\\UserList.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\st310-05\\Documents\\lll\\EFCore_pract\\EFCorePract\\Pages\\UserList.xaml.cs",
               "RelativeDocumentMoniker": "EFCorePract\\Pages\\UserList.xaml.cs",
-              "ToolTip": "C:\\Users\\pluhi\\OneDrive\\Desktop\\EFCorePract\\EFCorePract\\Pages\\UserList.xaml.cs",
+              "ToolTip": "C:\\Users\\st310-05\\Documents\\lll\\EFCore_pract\\EFCorePract\\Pages\\UserList.xaml.cs",
               "RelativeToolTip": "EFCorePract\\Pages\\UserList.xaml.cs",
               "ViewState": "AgIAABgAAAAAAAAAAAAqwDwAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-16T17:08:28.015Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-16T17:08:28.015Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
               "Title": "Users.cs",
-              "DocumentMoniker": "C:\\Users\\pluhi\\OneDrive\\Desktop\\EFCorePract\\EFCorePract\\Models\\Users.cs",
+              "DocumentMoniker": "C:\\Users\\st310-05\\Documents\\lll\\EFCore_pract\\EFCorePract\\Models\\Users.cs",
               "RelativeDocumentMoniker": "EFCorePract\\Models\\Users.cs",
-              "ToolTip": "C:\\Users\\pluhi\\OneDrive\\Desktop\\EFCorePract\\EFCorePract\\Models\\Users.cs",
+              "ToolTip": "C:\\Users\\st310-05\\Documents\\lll\\EFCore_pract\\EFCorePract\\Models\\Users.cs",
               "RelativeToolTip": "EFCorePract\\Models\\Users.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAgwC0AAAAjAAAAAAAAAA==",
+              "ViewState": "AQIAADYAAAAAAAAAAAAkwEgAAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-16T15:42:19.407Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\pluhi\\OneDrive\\Desktop\\EFCorePract\\EFCorePract\\Data\\AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\st310-05\\Documents\\lll\\EFCore_pract\\EFCorePract\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "EFCorePract\\Data\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\pluhi\\OneDrive\\Desktop\\EFCorePract\\EFCorePract\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\st310-05\\Documents\\lll\\EFCore_pract\\EFCorePract\\Data\\AppDbContext.cs",
               "RelativeToolTip": "EFCorePract\\Data\\AppDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAB+AAAAAAAAAA==",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABsAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-16T15:39:02.812Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\pluhi\\OneDrive\\Desktop\\EFCorePract\\EFCorePract\\MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\st310-05\\Documents\\lll\\EFCore_pract\\EFCorePract\\MainWindow.xaml",
               "RelativeDocumentMoniker": "EFCorePract\\MainWindow.xaml",
-              "ToolTip": "C:\\Users\\pluhi\\OneDrive\\Desktop\\EFCorePract\\EFCorePract\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\st310-05\\Documents\\lll\\EFCore_pract\\EFCorePract\\MainWindow.xaml",
               "RelativeToolTip": "EFCorePract\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-11-15T09:50:26.332Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-15T09:50:26.332Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\pluhi\\OneDrive\\Desktop\\EFCorePract\\EFCorePract\\MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\st310-05\\Documents\\lll\\EFCore_pract\\EFCorePract\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "EFCorePract\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\pluhi\\OneDrive\\Desktop\\EFCorePract\\EFCorePract\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\st310-05\\Documents\\lll\\EFCore_pract\\EFCorePract\\MainWindow.xaml.cs",
               "RelativeToolTip": "EFCorePract\\MainWindow.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-15T09:50:24.046Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-15T09:50:24.046Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 1786,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             }
           ]
         }

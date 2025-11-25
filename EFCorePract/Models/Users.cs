@@ -8,6 +8,8 @@ namespace EFCorePract.Models
 {
     public class Users:ObservableObject
     {
+
+
         private int _id;
         public int Id
         {
@@ -48,6 +50,27 @@ namespace EFCorePract.Models
         {
             get => _createdAt;
             set => SetProperty(ref _createdAt, value);
+        }
+
+        private UserProfile _userProfile;
+        public UserProfile UserProfile
+        {
+            get => _userProfile;
+            set => SetProperty(ref _userProfile, value);
+        }
+
+        private int _roleId;
+        public int RoleId
+        {
+            get => _roleId;
+            set => SetProperty(ref _roleId, value);
+        }
+
+        private Role _role;
+        public Role Role
+        {
+            get => _role;
+            set => SetProperty(ref _role, value);
         }
 
     }

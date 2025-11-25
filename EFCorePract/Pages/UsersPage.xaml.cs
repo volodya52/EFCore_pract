@@ -33,6 +33,8 @@ namespace EFCorePract.Pages
                 _user = _editUsers;
                 isEdit = true;
             }
+            if (_user.UserProfile == null)
+                _user.UserProfile = new( );
             DataContext = _user;
         }
 
