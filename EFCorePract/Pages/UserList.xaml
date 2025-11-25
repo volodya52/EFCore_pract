@@ -22,6 +22,7 @@
         <StackPanel Orientation="Horizontal">
             <Button Style="{DynamicResource AddButton}" Click="GoEditPage">Добавить</Button>
             <Button Style="{DynamicResource DeleteButton}" Click="Delete">Удалить</Button>
+            <Button Style="{DynamicResource AddButton}" Click="GoRole">Роли</Button>
         </StackPanel>
 
         <ListView Grid.Row="1"

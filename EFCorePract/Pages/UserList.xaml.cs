@@ -31,6 +31,11 @@ namespace EFCorePract.Pages
             
         }
 
+        private void GoRole(object sender, RoutedEventArgs e)
+        {
+            NavigationService.Navigate(new RoleList());
+        }
+
         private void GoEditPage(object sender, EventArgs e)
         {
             NavigationService.Navigate(new UsersPage());
