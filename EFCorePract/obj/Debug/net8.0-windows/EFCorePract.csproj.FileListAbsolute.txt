@@ -644,3 +644,7 @@ C:\Users\pluhi\OneDrive\Desktop\Гариев\EFCore_pract\EFCorePract\obj\Debug\
 C:\Users\pluhi\OneDrive\Desktop\Гариев\EFCore_pract\EFCorePract\obj\Debug\net8.0-windows\Pages\RoleList.baml
 C:\Users\pluhi\OneDrive\Desktop\Гариев\EFCore_pract\EFCorePract\obj\Debug\net8.0-windows\Pages\RoleForm.g.cs
 C:\Users\pluhi\OneDrive\Desktop\Гариев\EFCore_pract\EFCorePract\obj\Debug\net8.0-windows\Pages\RoleForm.baml
+C:\Users\st310-05\Documents\lll\EFCore_pract\EFCorePract\obj\Debug\net8.0-windows\Pages\RoleForm.g.cs
+C:\Users\st310-05\Documents\lll\EFCore_pract\EFCorePract\obj\Debug\net8.0-windows\Pages\RoleList.g.cs
+C:\Users\st310-05\Documents\lll\EFCore_pract\EFCorePract\obj\Debug\net8.0-windows\Pages\RoleForm.baml
+C:\Users\st310-05\Documents\lll\EFCore_pract\EFCorePract\obj\Debug\net8.0-windows\Pages\RoleList.baml

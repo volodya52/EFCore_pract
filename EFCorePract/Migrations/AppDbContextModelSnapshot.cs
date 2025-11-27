@@ -48,26 +48,25 @@ namespace EFCorePract.Migrations
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<string>("AvatarUrl")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Bio")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<DateTime>("Birthday")
+                    b.Property<DateTime?>("Birthday")
                         .HasColumnType("datetime2");
 
-                    b.Property<long>("Phone")
+                    b.Property<long?>("Phone")
                         .HasColumnType("bigint");
 
-                    b.Property<int>("UserId")
+                    b.Property<int?>("UserId")
                         .HasColumnType("int");
 
                     b.HasKey("Id");
 
                     b.HasIndex("UserId")
-                        .IsUnique();
+                        .IsUnique()
+                        .HasFilter("[UserId] IS NOT NULL");
 
                     b.ToTable("UserProfiles");
                 });
@@ -113,9 +112,7 @@ namespace EFCorePract.Migrations
                 {
                     b.HasOne("EFCorePract.Models.Users", "User")
                         .WithOne("UserProfile")
-                        .HasForeignKey("EFCorePract.Models.UserProfile", "UserId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("EFCorePract.Models.UserProfile", "UserId");
 
                     b.Navigation("User");
                 });
@@ -138,8 +135,7 @@ namespace EFCorePract.Migrations
 
             modelBuilder.Entity("EFCorePract.Models.Users", b =>
                 {
-                    b.Navigation("UserProfile")
-                        .IsRequired();
+                    b.Navigation("UserProfile");
                 });
 #pragma warning restore 612, 618
         }

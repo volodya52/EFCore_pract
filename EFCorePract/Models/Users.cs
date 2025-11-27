@@ -52,14 +52,14 @@ namespace EFCorePract.Models
             set => SetProperty(ref _createdAt, value);
         }
 
-        private UserProfile _userProfile;
-        public UserProfile UserProfile
+        private UserProfile? _userProfile;
+        public UserProfile? UserProfile
         {
             get => _userProfile;
             set => SetProperty(ref _userProfile, value);
         }
 
-        private int _roleId;
+        private int _roleId=1;
         public int RoleId
         {
             get => _roleId;

@@ -46,8 +46,8 @@ namespace EFCorePract.Pages
         private void SaveUser(object sender, EventArgs e)
         {
             if (isEdit)
-                _userService.Commit();
-            else
+                _userService.Commit( );
+            else               
                 _userService.Add(_user);
             NavigationService.GoBack();
 

@@ -10,8 +10,7 @@
       DataContext="{Binding RelativeSource={RelativeSource Self}}"
       Title="UserList">
 
-    
-       
+
 
     <Grid>
         <Grid.RowDefinitions>
@@ -30,24 +29,30 @@
                   MouseDoubleClick="EditUser"
                   SelectedItem="{Binding user}"
                   Style="{DynamicResource ListViewStyle}">
-            <ListView.ItemTemplate>
-                <DataTemplate>
-                    <StackPanel>
-                        <StackPanel>
-                            <TextBlock Style="{DynamicResource TextBlock}" Text="{Binding Login}"/>
-                            <TextBlock Style="{DynamicResource TextBlock}" Text="{Binding Name}"/>
-                            <TextBlock Style="{DynamicResource TextBlock}" Text="{Binding Email}"/>
-                            <TextBlock Style="{DynamicResource TextBlock}" Text="{Binding Password}"/>
-                            <TextBlock Style="{DynamicResource TextBlock}" Text="{Binding CreatedAt, StringFormat={}{0:dd.MM.yyyy}}"/>
-                            <TextBlock Style="{DynamicResource TextBlock}" Text="{Binding UserProfile.AvatarUrl}"/>
-                            <TextBlock Style="{DynamicResource TextBlock}" Text="{Binding UserProfile.Phone}"/>
-                            <TextBlock Style="{DynamicResource TextBlock}" Text="{Binding UserProfile.Birthday, StringFormat={}{0:dd.MM.yyyy}}"/>
-                            <TextBlock Style="{DynamicResource TextBlock}" Text="{Binding UserProfile.Bio}"/>
-                            <TextBlock Style="{DynamicResource TextBlock}" Text="{Binding Role.Title}"/>
-                        </StackPanel>
-                    </StackPanel>
-                </DataTemplate>
-            </ListView.ItemTemplate>
+            <ListView.View>
+                <GridView>
+                    <GridView.Columns>
+                        
+                        <GridViewColumn Header="Логин" DisplayMemberBinding="{Binding Login}"/>
+                        <GridViewColumn Header="Имя" DisplayMemberBinding="{Binding Name}"/>
+                        <GridViewColumn Header="Email" DisplayMemberBinding="{Binding Email}"/>
+                        <GridViewColumn Header="Пароль" DisplayMemberBinding="{Binding Password}"/>
+                        <GridViewColumn Header="Дата создания" DisplayMemberBinding="{Binding CreatedAt, StringFormat={}{0:dd.MM.yyyy}}"/>
+                        <GridViewColumn Header="Аватар">
+                            <GridViewColumn.CellTemplate>
+                                <DataTemplate>
+                                    <Image Source="{Binding UserProfile.AvatarUrl, TargetNullValue={x:Null}}" Width="100" Height="100"/>
+                                </DataTemplate>
+                            </GridViewColumn.CellTemplate>
+                        </GridViewColumn>
+                        <GridViewColumn Header="Адрес аватара" DisplayMemberBinding="{Binding UserProfile.AvatarUrl}"/>
+                        <GridViewColumn Header="Номер телефона" DisplayMemberBinding="{Binding UserProfile.Phone, StringFormat={}{0: # ### ### ## ##}}"/>
+                        <GridViewColumn Header="Дата рождения" DisplayMemberBinding="{Binding UserProfile.Birthday, StringFormat={}{0:dd.MM.yyyy}}"/>
+                        <GridViewColumn Header="Биография" DisplayMemberBinding="{Binding UserProfile.Bio}"/>
+                        <GridViewColumn Header="Роль" DisplayMemberBinding="{Binding Role.Title}"/>
+                    </GridView.Columns>
+                </GridView>
+            </ListView.View>
         </ListView>
     </Grid>
 </Page>

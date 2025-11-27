@@ -66,5 +66,10 @@ namespace EFCorePract.Pages
                 MessageBox.Show("Запись удалена");
             }
         }
+
+        public void LoadImage ()
+        {
+
+        }
     }
 }

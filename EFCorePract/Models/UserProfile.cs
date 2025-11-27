@@ -15,43 +15,43 @@ namespace EFCorePract.Models
             set => SetProperty(ref _id, value);
         }
 
-        private string _avatarUrl;
-        public string AvatarUrl
+        private string? _avatarUrl;
+        public string? AvatarUrl
         {
             get => _avatarUrl;
             set => SetProperty(ref _avatarUrl, value);
         }
 
-        private long _phone;
-        public long Phone
+        private long? _phone;
+        public long? Phone
         {
             get => _phone;
             set => SetProperty(ref _phone, value);
         }
 
-        private DateTime _birthday;
-        public DateTime Birthday
+        private DateTime? _birthday;
+        public DateTime? Birthday
         {
             get => _birthday;
             set => SetProperty(ref _birthday, value);
         }
 
-        private string _bio;
-        public string Bio
+        private string? _bio ="";
+        public string? Bio
         {
             get => _bio;
             set => SetProperty(ref _bio, value);
         }
 
-        private int _userId;
-        public int UserId
+        private int? _userId;
+        public int? UserId
         {
             get => _userId;
             set => SetProperty(ref _userId, value);
         }
 
-        private Users _user;
-        public Users User
+        private Users? _user;
+        public Users? User
         {
             get => _user;
             set => SetProperty(ref _user, value);

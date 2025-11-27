@@ -15,7 +15,7 @@ namespace EFCorePract.Data
         public DbSet<Role> Roles { get; set; }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Server=DESKTOP-5RGECJ1;Database=Users3;User Id=v;Password=123;TrustServerCertificate=true;");
+            optionsBuilder.UseSqlServer("Server=sql.ects;Database=Users4;User Id=student_05;Password=student_05;TrustServerCertificate=true;");
         }
         protected override void OnModelCreating (ModelBuilder modelBuilder)
         {
