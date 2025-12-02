@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -71,6 +72,20 @@ namespace EFCorePract.Models
         {
             get => _role;
             set => SetProperty(ref _role, value);
+        }
+
+        private ObservableCollection<InterestGroup> _interesetGroups;
+        public ObservableCollection<InterestGroup> InterestGroups
+        {
+            get => _interesetGroups;
+            set => SetProperty(ref _interesetGroups, value);
+        }
+
+        private ObservableCollection<UserInterestGroup> _userInterestGroup;
+        public ObservableCollection<UserInterestGroup> UserInterestGroups
+        {
+            get => _userInterestGroup;
+            set => SetProperty(ref _userInterestGroup, value);
         }
 
     }

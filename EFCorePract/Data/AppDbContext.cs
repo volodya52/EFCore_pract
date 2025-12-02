@@ -13,6 +13,8 @@ namespace EFCorePract.Data
         public DbSet<Users>Users { get; set; }
         public DbSet<UserProfile> UserProfiles { get; set; }
         public DbSet<Role> Roles { get; set; }
+        public DbSet<InterestGroup> InterestGroups { get; set; }
+        public DbSet<UserInterestGroup> UsersInterestGroups { get; set; }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             optionsBuilder.UseSqlServer("Server=sql.ects;Database=Users4;User Id=student_05;Password=student_05;TrustServerCertificate=true;");
@@ -28,6 +30,19 @@ namespace EFCorePract.Data
                 .HasMany(r => r.Users)
                 .WithOne(s => s.Role)
                 .HasForeignKey(s => s.RoleId);
+
+            modelBuilder.Entity<UserInterestGroup>( )
+                .HasKey(ui => new { ui.UserId, ui.InterestGroupId });
+
+            modelBuilder.Entity<UserInterestGroup>( )
+                .HasOne(ui => ui.User)
+                .WithMany(u => u.UserInterestGroups)
+                .HasForeignKey(ui => ui.UserId);
+
+            modelBuilder.Entity<UserInterestGroup>( )
+                .HasOne(ui => ui.InterestGroup)
+                .WithMany(i => i.UserInterestGroups)
+                .HasForeignKey(ui => ui.InterestGroupId);
 
         }
     }
