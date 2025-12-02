@@ -1,0 +1,41 @@
+﻿<Page x:Class="EFCorePract.Pages.GroupsList"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:EFCorePract.Pages"
+      mc:Ignorable="d" 
+      DataContext="{Binding RelativeSource={RelativeSource Self}}"
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="GroupsList">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <StackPanel Grid.Row="0" Orientation="Horizontal">
+            <Button Style="{DynamicResource AddButton}" Click="Add">Добавить</Button>
+            <Button Style="{DynamicResource AddButton}" Click="Remove">Удалить</Button>
+            <Button Style="{DynamicResource AddButton}" Click="Back">Назад</Button>
+        </StackPanel>
+
+        <ListView Grid.Row="1"
+                  ItemsSource="{Binding service.InterestGroups}"
+                  SelectedItem="{Binding current}"
+                  MouseDoubleClick="Edit">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <TextBlock>
+                        <Run Text="Группа интересов:"/>
+                        <Run Text="{Binding Title}"/>
+                        <Run Text="Описание:"/>
+                        <Run Text="{Binding Description}"/>
+                    </TextBlock>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+                  
+    </Grid>
+</Page>

@@ -2,10 +2,19 @@
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup />
   <ItemGroup>
+    <Compile Update="Pages\GroupsList.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\GroupsPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="Pages\RoleForm.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="Pages\RoleList.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\UserInGroup.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="Pages\UserList.xaml.cs">

@@ -65,5 +65,7 @@ namespace EFCorePract.Pages
                 MessageBox.Show("Выберите роль для удаления", "Удаление",MessageBoxButton.OK, MessageBoxImage.Error);
             }
         }
+
+        
     }
 }

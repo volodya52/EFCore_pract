@@ -17,11 +17,17 @@
             <RowDefinition Height="50"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
 
-        <StackPanel Orientation="Horizontal">
+        <StackPanel Orientation="Horizontal" Grid.ColumnSpan="2">
             <Button Style="{DynamicResource AddButton}" Click="GoEditPage">Добавить</Button>
             <Button Style="{DynamicResource DeleteButton}" Click="Delete">Удалить</Button>
             <Button Style="{DynamicResource AddButton}" Click="GoRole">Роли</Button>
+            <Button Style="{DynamicResource GroupsButton}" Click="GoGroupsList">Группы интересов</Button>
+            <Button Style="{DynamicResource AddButton}" Click="AddinGroup">Добавить в группу</Button>
         </StackPanel>
 
         <ListView Grid.Row="1"
@@ -32,7 +38,6 @@
             <ListView.View>
                 <GridView>
                     <GridView.Columns>
-                        
                         <GridViewColumn Header="Логин" DisplayMemberBinding="{Binding Login}"/>
                         <GridViewColumn Header="Имя" DisplayMemberBinding="{Binding Name}"/>
                         <GridViewColumn Header="Email" DisplayMemberBinding="{Binding Email}"/>
@@ -53,6 +58,11 @@
                     </GridView.Columns>
                 </GridView>
             </ListView.View>
+        </ListView>
+
+        <ListView Grid.Row="1"
+                  Grid.Column="1">
+            
         </ListView>
     </Grid>
 </Page>

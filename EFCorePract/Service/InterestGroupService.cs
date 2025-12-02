@@ -13,7 +13,7 @@ namespace EFCorePract.Service
     {
         private readonly AppDbContext _db = BaseDBService.Instance.Context;
 
-        public ObservableCollection<InterestGroup> InterestGroups { get; set; } = new( );
+        public static ObservableCollection<InterestGroup> InterestGroups { get; set; } = new( );
         public int Commit () => _db.SaveChanges( );
 
         public void Add(InterestGroup interestGroup)

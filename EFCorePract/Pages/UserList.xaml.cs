@@ -67,9 +67,21 @@ namespace EFCorePract.Pages
             }
         }
 
-        public void LoadImage ()
+        private void GoGroupsList(object sender, RoutedEventArgs e)
         {
+            NavigationService.Navigate(new GroupsList());
+        }
 
+        private void AddinGroup(object sender, RoutedEventArgs e)
+        {
+            if (user == null)
+            {
+                MessageBox.Show("Выберите пользователя");
+            }
+            else
+            {
+                NavigationService.Navigate(new UserInGroup(user));
+            }
         }
     }
 }

@@ -28,5 +28,11 @@
         <Setter Property="Height" Value="30"/>
         <Setter Property="Margin" Value="0,5,0,0"/>
     </Style>
+
+    <Style x:Key="GroupsButton" TargetType="Button" BasedOn="{StaticResource MaterialDesignFlatButton}">
+        <Setter Property="Width" Value="166"/>
+        <Setter Property="Height" Value="30"/>
+        <Setter Property="Margin" Value="0,5"/>
+    </Style>
     
 </ResourceDictionary>
