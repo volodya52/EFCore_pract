@@ -3,24 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\pluhi\\OneDrive\\Desktop\\\u0413\u0430\u0440\u0438\u0435\u0432\\EFCore_pract\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8131CDEA-47C4-4C2F-8216-98D52BAF2982}|EFCorePract\\EFCorePract.csproj|c:\\users\\pluhi\\onedrive\\desktop\\\u0433\u0430\u0440\u0438\u0435\u0432\\efcore_pract\\efcorepract\\pages\\userlist.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{8131CDEA-47C4-4C2F-8216-98D52BAF2982}|EFCorePract\\EFCorePract.csproj|solutionrelative:efcorepract\\pages\\userlist.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{8131CDEA-47C4-4C2F-8216-98D52BAF2982}|EFCorePract\\EFCorePract.csproj|c:\\users\\pluhi\\onedrive\\desktop\\\u0433\u0430\u0440\u0438\u0435\u0432\\efcore_pract\\efcorepract\\models\\userinterestgroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8131CDEA-47C4-4C2F-8216-98D52BAF2982}|EFCorePract\\EFCorePract.csproj|solutionrelative:efcorepract\\models\\userinterestgroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8131CDEA-47C4-4C2F-8216-98D52BAF2982}|EFCorePract\\EFCorePract.csproj|c:\\users\\pluhi\\onedrive\\desktop\\\u0433\u0430\u0440\u0438\u0435\u0432\\efcore_pract\\efcorepract\\pages\\userlist.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8131CDEA-47C4-4C2F-8216-98D52BAF2982}|EFCorePract\\EFCorePract.csproj|solutionrelative:efcorepract\\pages\\userlist.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8131CDEA-47C4-4C2F-8216-98D52BAF2982}|EFCorePract\\EFCorePract.csproj|c:\\users\\pluhi\\onedrive\\desktop\\\u0433\u0430\u0440\u0438\u0435\u0432\\efcore_pract\\efcorepract\\service\\userinterestgroupservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8131CDEA-47C4-4C2F-8216-98D52BAF2982}|EFCorePract\\EFCorePract.csproj|solutionrelative:efcorepract\\service\\userinterestgroupservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8131CDEA-47C4-4C2F-8216-98D52BAF2982}|EFCorePract\\EFCorePract.csproj|c:\\users\\pluhi\\onedrive\\desktop\\\u0433\u0430\u0440\u0438\u0435\u0432\\efcore_pract\\efcorepract\\pages\\useringroup.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8131CDEA-47C4-4C2F-8216-98D52BAF2982}|EFCorePract\\EFCorePract.csproj|solutionrelative:efcorepract\\pages\\useringroup.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8131CDEA-47C4-4C2F-8216-98D52BAF2982}|EFCorePract\\EFCorePract.csproj|c:\\users\\pluhi\\onedrive\\desktop\\\u0433\u0430\u0440\u0438\u0435\u0432\\efcore_pract\\efcorepract\\models\\userinterestgroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8131CDEA-47C4-4C2F-8216-98D52BAF2982}|EFCorePract\\EFCorePract.csproj|solutionrelative:efcorepract\\models\\userinterestgroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8131CDEA-47C4-4C2F-8216-98D52BAF2982}|EFCorePract\\EFCorePract.csproj|c:\\users\\pluhi\\onedrive\\desktop\\\u0433\u0430\u0440\u0438\u0435\u0432\\efcore_pract\\efcorepract\\pages\\useringroup.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{8131CDEA-47C4-4C2F-8216-98D52BAF2982}|EFCorePract\\EFCorePract.csproj|solutionrelative:efcorepract\\pages\\useringroup.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8131CDEA-47C4-4C2F-8216-98D52BAF2982}|EFCorePract\\EFCorePract.csproj|c:\\users\\pluhi\\onedrive\\desktop\\\u0433\u0430\u0440\u0438\u0435\u0432\\efcore_pract\\efcorepract\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8131CDEA-47C4-4C2F-8216-98D52BAF2982}|EFCorePract\\EFCorePract.csproj|solutionrelative:efcorepract\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8131CDEA-47C4-4C2F-8216-98D52BAF2982}|EFCorePract\\EFCorePract.csproj|c:\\users\\pluhi\\onedrive\\desktop\\\u0433\u0430\u0440\u0438\u0435\u0432\\efcore_pract\\efcorepract\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8131CDEA-47C4-4C2F-8216-98D52BAF2982}|EFCorePract\\EFCorePract.csproj|solutionrelative:efcorepract\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8131CDEA-47C4-4C2F-8216-98D52BAF2982}|EFCorePract\\EFCorePract.csproj|c:\\users\\pluhi\\onedrive\\desktop\\\u0433\u0430\u0440\u0438\u0435\u0432\\efcore_pract\\efcorepract\\models\\interestgroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8131CDEA-47C4-4C2F-8216-98D52BAF2982}|EFCorePract\\EFCorePract.csproj|solutionrelative:efcorepract\\models\\interestgroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8131CDEA-47C4-4C2F-8216-98D52BAF2982}|EFCorePract\\EFCorePract.csproj|c:\\users\\pluhi\\onedrive\\desktop\\\u0433\u0430\u0440\u0438\u0435\u0432\\efcore_pract\\efcorepract\\pages\\userlist.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{8131CDEA-47C4-4C2F-8216-98D52BAF2982}|EFCorePract\\EFCorePract.csproj|solutionrelative:efcorepract\\pages\\userlist.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8131CDEA-47C4-4C2F-8216-98D52BAF2982}|EFCorePract\\EFCorePract.csproj|c:\\users\\pluhi\\onedrive\\desktop\\\u0433\u0430\u0440\u0438\u0435\u0432\\efcore_pract\\efcorepract\\pages\\userlist.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8131CDEA-47C4-4C2F-8216-98D52BAF2982}|EFCorePract\\EFCorePract.csproj|solutionrelative:efcorepract\\pages\\userlist.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8131CDEA-47C4-4C2F-8216-98D52BAF2982}|EFCorePract\\EFCorePract.csproj|c:\\users\\pluhi\\onedrive\\desktop\\\u0433\u0430\u0440\u0438\u0435\u0432\\efcore_pract\\efcorepract\\pages\\userspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -33,14 +49,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{8131CDEA-47C4-4C2F-8216-98D52BAF2982}|EFCorePract\\EFCorePract.csproj|c:\\users\\pluhi\\onedrive\\desktop\\\u0433\u0430\u0440\u0438\u0435\u0432\\efcore_pract\\efcorepract\\pages\\rolelist.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{8131CDEA-47C4-4C2F-8216-98D52BAF2982}|EFCorePract\\EFCorePract.csproj|solutionrelative:efcorepract\\pages\\rolelist.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8131CDEA-47C4-4C2F-8216-98D52BAF2982}|EFCorePract\\EFCorePract.csproj|c:\\users\\pluhi\\onedrive\\desktop\\\u0433\u0430\u0440\u0438\u0435\u0432\\efcore_pract\\efcorepract\\models\\interestgroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8131CDEA-47C4-4C2F-8216-98D52BAF2982}|EFCorePract\\EFCorePract.csproj|solutionrelative:efcorepract\\models\\interestgroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8131CDEA-47C4-4C2F-8216-98D52BAF2982}|EFCorePract\\EFCorePract.csproj|c:\\users\\pluhi\\onedrive\\desktop\\\u0433\u0430\u0440\u0438\u0435\u0432\\efcore_pract\\efcorepract\\service\\userinterestgroupservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8131CDEA-47C4-4C2F-8216-98D52BAF2982}|EFCorePract\\EFCorePract.csproj|solutionrelative:efcorepract\\service\\userinterestgroupservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8131CDEA-47C4-4C2F-8216-98D52BAF2982}|EFCorePract\\EFCorePract.csproj|c:\\users\\pluhi\\onedrive\\desktop\\\u0433\u0430\u0440\u0438\u0435\u0432\\efcore_pract\\efcorepract\\service\\roleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -78,17 +86,43 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 14,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\pluhi\\OneDrive\\Desktop\\\u0413\u0430\u0440\u0438\u0435\u0432\\EFCore_pract\\EFCorePract\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "EFCorePract\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\pluhi\\OneDrive\\Desktop\\\u0413\u0430\u0440\u0438\u0435\u0432\\EFCore_pract\\EFCorePract\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "EFCorePract\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAvwCUAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T11:18:16.447Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Users.cs",
+              "DocumentMoniker": "C:\\Users\\pluhi\\OneDrive\\Desktop\\\u0413\u0430\u0440\u0438\u0435\u0432\\EFCore_pract\\EFCorePract\\Models\\Users.cs",
+              "RelativeDocumentMoniker": "EFCorePract\\Models\\Users.cs",
+              "ToolTip": "C:\\Users\\pluhi\\OneDrive\\Desktop\\\u0413\u0430\u0440\u0438\u0435\u0432\\EFCore_pract\\EFCorePract\\Models\\Users.cs",
+              "RelativeToolTip": "EFCorePract\\Models\\Users.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwFMAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T11:17:44.06Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "UserInterestGroup.cs",
               "DocumentMoniker": "C:\\Users\\pluhi\\OneDrive\\Desktop\\\u0413\u0430\u0440\u0438\u0435\u0432\\EFCore_pract\\EFCorePract\\Models\\UserInterestGroup.cs",
               "RelativeDocumentMoniker": "EFCorePract\\Models\\UserInterestGroup.cs",
               "ToolTip": "C:\\Users\\pluhi\\OneDrive\\Desktop\\\u0413\u0430\u0440\u0438\u0435\u0432\\EFCore_pract\\EFCorePract\\Models\\UserInterestGroup.cs",
               "RelativeToolTip": "EFCorePract\\Models\\UserInterestGroup.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAowCYAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-02T17:28:34.904Z",
               "EditorCaption": ""
@@ -101,14 +135,14 @@
               "RelativeDocumentMoniker": "EFCorePract\\Pages\\UserInGroup.xaml.cs",
               "ToolTip": "C:\\Users\\pluhi\\OneDrive\\Desktop\\\u0413\u0430\u0440\u0438\u0435\u0432\\EFCore_pract\\EFCorePract\\Pages\\UserInGroup.xaml.cs",
               "RelativeToolTip": "EFCorePract\\Pages\\UserInGroup.xaml.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABoAAAA4AAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAADAAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-02T17:08:28.251Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "UserInGroup.xaml",
               "DocumentMoniker": "C:\\Users\\pluhi\\OneDrive\\Desktop\\\u0413\u0430\u0440\u0438\u0435\u0432\\EFCore_pract\\EFCorePract\\Pages\\UserInGroup.xaml",
               "RelativeDocumentMoniker": "EFCorePract\\Pages\\UserInGroup.xaml",
@@ -120,20 +154,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 6,
               "Title": "InterestGroup.cs",
               "DocumentMoniker": "C:\\Users\\pluhi\\OneDrive\\Desktop\\\u0413\u0430\u0440\u0438\u0435\u0432\\EFCore_pract\\EFCorePract\\Models\\InterestGroup.cs",
               "RelativeDocumentMoniker": "EFCorePract\\Models\\InterestGroup.cs",
               "ToolTip": "C:\\Users\\pluhi\\OneDrive\\Desktop\\\u0413\u0430\u0440\u0438\u0435\u0432\\EFCore_pract\\EFCorePract\\Models\\InterestGroup.cs",
               "RelativeToolTip": "EFCorePract\\Models\\InterestGroup.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAABJAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACkAAABJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-02T17:00:36.086Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "RoleService.cs",
               "DocumentMoniker": "C:\\Users\\pluhi\\OneDrive\\Desktop\\\u0413\u0430\u0440\u0438\u0435\u0432\\EFCore_pract\\EFCorePract\\Service\\RoleService.cs",
               "RelativeDocumentMoniker": "EFCorePract\\Service\\RoleService.cs",
@@ -141,36 +175,33 @@
               "RelativeToolTip": "EFCorePract\\Service\\RoleService.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-02T16:29:52.409Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-02T16:29:52.409Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 11,
               "Title": "RoleList.xaml",
               "DocumentMoniker": "C:\\Users\\pluhi\\OneDrive\\Desktop\\\u0413\u0430\u0440\u0438\u0435\u0432\\EFCore_pract\\EFCorePract\\Pages\\RoleList.xaml",
               "RelativeDocumentMoniker": "EFCorePract\\Pages\\RoleList.xaml",
               "ToolTip": "C:\\Users\\pluhi\\OneDrive\\Desktop\\\u0413\u0430\u0440\u0438\u0435\u0432\\EFCore_pract\\EFCorePract\\Pages\\RoleList.xaml",
               "RelativeToolTip": "EFCorePract\\Pages\\RoleList.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-12-02T16:26:54.688Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-02T16:26:54.688Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 10,
               "Title": "GroupsList.xaml",
               "DocumentMoniker": "C:\\Users\\pluhi\\OneDrive\\Desktop\\\u0413\u0430\u0440\u0438\u0435\u0432\\EFCore_pract\\EFCorePract\\Pages\\GroupsList.xaml",
               "RelativeDocumentMoniker": "EFCorePract\\Pages\\GroupsList.xaml",
               "ToolTip": "C:\\Users\\pluhi\\OneDrive\\Desktop\\\u0413\u0430\u0440\u0438\u0435\u0432\\EFCore_pract\\EFCorePract\\Pages\\GroupsList.xaml",
               "RelativeToolTip": "EFCorePract\\Pages\\GroupsList.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-12-02T15:02:11.108Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-02T15:02:11.108Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "CheckEmailTwice.cs",
               "DocumentMoniker": "C:\\Users\\pluhi\\OneDrive\\Desktop\\\u0413\u0430\u0440\u0438\u0435\u0432\\EFCore_pract\\EFCorePract\\Validators\\CheckEmailTwice.cs",
               "RelativeDocumentMoniker": "EFCorePract\\Validators\\CheckEmailTwice.cs",
@@ -178,12 +209,11 @@
               "RelativeToolTip": "EFCorePract\\Validators\\CheckEmailTwice.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-02T15:52:49.513Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-02T15:52:49.513Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "CheckGroupsTwice.cs",
               "DocumentMoniker": "C:\\Users\\pluhi\\OneDrive\\Desktop\\\u0413\u0430\u0440\u0438\u0435\u0432\\EFCore_pract\\EFCorePract\\Validators\\CheckGroupsTwice.cs",
               "RelativeDocumentMoniker": "EFCorePract\\Validators\\CheckGroupsTwice.cs",
@@ -191,12 +221,11 @@
               "RelativeToolTip": "EFCorePract\\Validators\\CheckGroupsTwice.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-02T15:52:42.123Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-02T15:52:42.123Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "GroupsPage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\pluhi\\OneDrive\\Desktop\\\u0413\u0430\u0440\u0438\u0435\u0432\\EFCore_pract\\EFCorePract\\Pages\\GroupsPage.xaml.cs",
               "RelativeDocumentMoniker": "EFCorePract\\Pages\\GroupsPage.xaml.cs",
@@ -204,24 +233,22 @@
               "RelativeToolTip": "EFCorePract\\Pages\\GroupsPage.xaml.cs",
               "ViewState": "AgIAAA8AAAAAAAAAAAAAACwAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-02T15:27:10.374Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-02T15:27:10.374Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "GroupsPage.xaml",
               "DocumentMoniker": "C:\\Users\\pluhi\\OneDrive\\Desktop\\\u0413\u0430\u0440\u0438\u0435\u0432\\EFCore_pract\\EFCorePract\\Pages\\GroupsPage.xaml",
               "RelativeDocumentMoniker": "EFCorePract\\Pages\\GroupsPage.xaml",
               "ToolTip": "C:\\Users\\pluhi\\OneDrive\\Desktop\\\u0413\u0430\u0440\u0438\u0435\u0432\\EFCore_pract\\EFCorePract\\Pages\\GroupsPage.xaml",
               "RelativeToolTip": "EFCorePract\\Pages\\GroupsPage.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-12-02T15:20:02.517Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-02T15:20:02.517Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "GroupsList.xaml.cs",
               "DocumentMoniker": "C:\\Users\\pluhi\\OneDrive\\Desktop\\\u0413\u0430\u0440\u0438\u0435\u0432\\EFCore_pract\\EFCorePract\\Pages\\GroupsList.xaml.cs",
               "RelativeDocumentMoniker": "EFCorePract\\Pages\\GroupsList.xaml.cs",
@@ -229,12 +256,11 @@
               "RelativeToolTip": "EFCorePract\\Pages\\GroupsList.xaml.cs",
               "ViewState": "AgIAAB0AAAAAAAAAAAAwwCMAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-02T15:08:44.033Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-02T15:08:44.033Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 8,
               "Title": "UserList.xaml.cs",
               "DocumentMoniker": "C:\\Users\\pluhi\\OneDrive\\Desktop\\\u0413\u0430\u0440\u0438\u0435\u0432\\EFCore_pract\\EFCorePract\\Pages\\UserList.xaml.cs",
               "RelativeDocumentMoniker": "EFCorePract\\Pages\\UserList.xaml.cs",
@@ -242,12 +268,11 @@
               "RelativeToolTip": "EFCorePract\\Pages\\UserList.xaml.cs",
               "ViewState": "AgIAADYAAAAAAAAAAAArwFIAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-02T15:06:48.214Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-02T15:06:48.214Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "RoleList.xaml.cs",
               "DocumentMoniker": "C:\\Users\\pluhi\\OneDrive\\Desktop\\\u0413\u0430\u0440\u0438\u0435\u0432\\EFCore_pract\\EFCorePract\\Pages\\RoleList.xaml.cs",
               "RelativeDocumentMoniker": "EFCorePract\\Pages\\RoleList.xaml.cs",
@@ -255,12 +280,11 @@
               "RelativeToolTip": "EFCorePract\\Pages\\RoleList.xaml.cs",
               "ViewState": "AgIAABoAAAAAAAAAAAA9wEQAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-02T15:05:31.72Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-02T15:05:31.72Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 7,
               "Title": "UserList.xaml",
               "DocumentMoniker": "C:\\Users\\pluhi\\OneDrive\\Desktop\\\u0413\u0430\u0440\u0438\u0435\u0432\\EFCore_pract\\EFCorePract\\Pages\\UserList.xaml",
               "RelativeDocumentMoniker": "EFCorePract\\Pages\\UserList.xaml",
@@ -272,25 +296,24 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "UsersPage.xaml",
               "DocumentMoniker": "C:\\Users\\pluhi\\OneDrive\\Desktop\\\u0413\u0430\u0440\u0438\u0435\u0432\\EFCore_pract\\EFCorePract\\Pages\\UsersPage.xaml",
               "RelativeDocumentMoniker": "EFCorePract\\Pages\\UsersPage.xaml",
               "ToolTip": "C:\\Users\\pluhi\\OneDrive\\Desktop\\\u0413\u0430\u0440\u0438\u0435\u0432\\EFCore_pract\\EFCorePract\\Pages\\UsersPage.xaml",
               "RelativeToolTip": "EFCorePract\\Pages\\UsersPage.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-12-02T14:55:23.856Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-02T14:55:23.856Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 1,
               "Title": "UserInterestGroupService.cs",
               "DocumentMoniker": "C:\\Users\\pluhi\\OneDrive\\Desktop\\\u0413\u0430\u0440\u0438\u0435\u0432\\EFCore_pract\\EFCorePract\\Service\\UserInterestGroupService.cs",
               "RelativeDocumentMoniker": "EFCorePract\\Service\\UserInterestGroupService.cs",
               "ToolTip": "C:\\Users\\pluhi\\OneDrive\\Desktop\\\u0413\u0430\u0440\u0438\u0435\u0432\\EFCore_pract\\EFCorePract\\Service\\UserInterestGroupService.cs",
               "RelativeToolTip": "EFCorePract\\Service\\UserInterestGroupService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAAAQwB0AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-02T14:47:51.862Z",
               "EditorCaption": ""

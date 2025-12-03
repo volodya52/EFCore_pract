@@ -12,9 +12,9 @@ TRACE;DEBUG;NET;NET8_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR
 C:\Users\pluhi\OneDrive\Desktop\Гариев\EFCore_pract\EFCorePract\App.xaml
 151741075900
 
-57-228245159
+5987509817
 2311192008169
 MainWindow.xaml;Pages\GroupsList.xaml;Pages\GroupsPage.xaml;Pages\RoleForm.xaml;Pages\RoleList.xaml;Pages\UserInGroup.xaml;Pages\UserList.xaml;Pages\UsersPage.xaml;Styles\Buttons.xaml;Styles\ComboBox.xaml;Styles\DatePickers.xaml;Styles\Labels.xaml;Styles\ListView.xaml;Styles\TextBlocks.xaml;Styles\TextBoxes.xaml;
 
-False
+True
 

@@ -36,8 +36,8 @@ namespace EFCorePract.Models
             set => SetProperty(ref _interestGroupId, value);
         }
 
-        private DateOnly _joinedAt;
-        public DateOnly JoinedAt
+        private DateTime _joinedAt;
+        public DateTime JoinedAt
         {
             get => _joinedAt;
             set => SetProperty(ref _joinedAt, value);

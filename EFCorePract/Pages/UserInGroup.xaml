@@ -29,7 +29,7 @@
 
             <StackPanel>
                 <Label>Модератор</Label>
-                <CheckBox IsChecked="False"/>
+                <CheckBox IsChecked="{Binding current2.IsModerator}"/>
             </StackPanel>
 
             <StackPanel>
@@ -43,7 +43,7 @@
                         </Binding>
                     </DatePicker.SelectedDate>
                 </DatePicker>
-                <Button Style="{DynamicResource AddButton}">Добавить</Button>
+                <Button Style="{DynamicResource AddButton}" Click="Add">Добавить</Button>
             </StackPanel>
         </StackPanel>
 

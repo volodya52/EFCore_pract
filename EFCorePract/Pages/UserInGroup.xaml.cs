@@ -40,5 +40,10 @@ namespace EFCorePract.Pages
         {
             NavigationService.GoBack();
         }
+
+        private void Add(object sender, RoutedEventArgs e)
+        {
+            
+        }
     }
 }
