@@ -28,12 +28,16 @@ namespace EFCorePract.Pages
 
         public InterestGroup current1 { get; set; } = new();
 
-        public Users _users { get; set; } = new();
+        public Users _users { get; set; }
 
         public UserInGroup(Users users)
         {
-            InitializeComponent();
+            
             _users = users;
+            MessageBox.Show(users.Name);
+            MessageBox.Show(_users.Name);
+            DataContext = this;
+            InitializeComponent( );
         }
 
         private void Back(object sender, RoutedEventArgs e)
@@ -43,7 +47,10 @@ namespace EFCorePract.Pages
 
         private void Add(object sender, RoutedEventArgs e)
         {
-            
+            current2.UserId = _users.Id;
+            current2.InterestGroupId = current1.Id;
+            service.Add(current2);
+            Back(sender, e);
         }
     }
 }

@@ -9,7 +9,8 @@
       xmlns:service="clr-namespace:EFCorePract.Service"
       mc:Ignorable="d" 
       d:DesignHeight="450" d:DesignWidth="800"
-      Title="UsersPage">
+      Title="UsersPage"
+      >
 
     <Page.Resources>
         <service:RoleService x:Key="rService"/>

@@ -60,9 +60,22 @@
             </ListView.View>
         </ListView>
 
-        <ListView Grid.Row="1"
+        <ListView
+                  ItemsSource="{Binding service2}"
+                  Grid.Row="1"
                   Grid.Column="1">
-            
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <TextBlock>
+                        <Run Text="Группа"/>
+                        <Run Text="{Binding Title}"/>
+                        <Run Text="Описание"/>
+                        <Run Text="{Binding Description}"/>
+                        <Run Text="Модератор"/>
+                        <Run Text="{Binding IsModerator}"/>
+                    </TextBlock>
+                </DataTemplate>
+            </ListView.ItemTemplate>
         </ListView>
     </Grid>
 </Page>

@@ -8,7 +8,8 @@
       xmlns:validators="clr-namespace:EFCorePract.Validators"
       DataContext="{Binding RelativeSource={RelativeSource Self}}"
       d:DesignHeight="450" d:DesignWidth="800"
-      Title="UserInGroup">
+      Title="UserInGroup"
+      Background="AliceBlue">
 
     <Grid>
         <Grid.ColumnDefinitions>
@@ -16,15 +17,15 @@
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
 
-        <StackPanel Grid.Column="0">
+        <StackPanel Grid.Column="0" >
             <StackPanel>
                 <Button Style="{DynamicResource AddButton}" Click="Back">Назад</Button>
             </StackPanel>
-            <StackPanel>
+            <StackPanel DataContext="{Binding _users}">
                 <Label FontSize="20">Информация о пользователе</Label>
-                <TextBlock Text="{Binding _users.Name}"/>
-                <TextBlock Text="{Binding _users.Login}"/>
-                <TextBlock Text="{Binding _users.Email}"/>
+                <TextBlock Text="{Binding Name}"/>
+                <TextBlock Text="{Binding Login}"/>
+                <TextBlock Text="{Binding Email}"/>
             </StackPanel>
 
             <StackPanel>

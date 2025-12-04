@@ -2,6 +2,7 @@
 using EFCorePract.Service;
 using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -24,11 +25,14 @@ namespace EFCorePract.Pages
     {
         public UserService service { get; set; }=new();
         public Users? user { get; set; } = null;
+
+        public UserInterestGroup UserInterestGroup { get; set; }
+        public ObservableCollection<InterestGroup> service2 { get; set; } = new( );
         
         public UserList()
         {
             InitializeComponent();
-            
+            //service2.GetAll( );
         }
 
         private void GoRole(object sender, RoutedEventArgs e)

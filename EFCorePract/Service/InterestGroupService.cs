@@ -1,5 +1,6 @@
 ﻿using EFCorePract.Data;
 using EFCorePract.Models;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -34,10 +35,11 @@ namespace EFCorePract.Service
         {
             var interestGroups = _db.InterestGroups.ToList( );
             InterestGroups.Clear( );
-            foreach(var interestGroup in interestGroups)
+            foreach (var interestGroup in interestGroups)
             {
                 InterestGroups.Add(interestGroup);
             }
+
         }
 
         public InterestGroupService ()
