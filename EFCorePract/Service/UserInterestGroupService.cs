@@ -21,9 +21,9 @@ namespace EFCorePract.Service
             var _userInterestGroup = new UserInterestGroup
             {
                 InterestGroupId = userInterestGroup.InterestGroupId,
-                InterestGroup=userInterestGroup.InterestGroup,
+                
                 UserId = userInterestGroup.UserId,
-                User=userInterestGroup.User,
+               
                 IsModerator = userInterestGroup.IsModerator,
                 JoinedAt = userInterestGroup.JoinedAt
             };
@@ -34,15 +34,34 @@ namespace EFCorePract.Service
 
         public void GetAll ()
         {
-            var interestGroup = _db.UsersInterestGroups
-                .Include(u => u.User)
-                .ThenInclude(g => g.UserInterestGroups)
-                .ToList( );
-            UserInterestGroups.Clear( );
-            foreach (var group in interestGroup)
+            var userInterestGroups = _db.UsersInterestGroups
+                .Include(ug => ug.User)
+                .Include(ug => ug.InterestGroup)
+                .ToList();
+
+            UserInterestGroups.Clear();
+            foreach (var group in userInterestGroups)
             {
                 UserInterestGroups.Add(group);
             }
+        }
+
+        public List<UserInterestGroup> GetUserGroups(int userId)
+        {
+            return _db.UsersInterestGroups
+                .Where(ug => ug.UserId == userId)
+                .Include(ug => ug.InterestGroup)
+                .ToList();
+        }
+
+        // Метод для получения групп пользователя в виде объектов InterestGroup
+        public List<InterestGroup> GetUserInterestGroups(int userId)
+        {
+            return _db.UsersInterestGroups
+                .Where(ug => ug.UserId == userId)
+                .Include(ug => ug.InterestGroup)
+                .Select(ug => ug.InterestGroup)
+                .ToList();
         }
     }
 }

@@ -26,8 +26,8 @@ namespace EFCorePract.Pages
         public UserService service { get; set; }=new();
         public Users? user { get; set; } = null;
 
-        public UserInterestGroup UserInterestGroup { get; set; }
-        public ObservableCollection<InterestGroup> service2 { get; set; } = new( );
+        public ObservableCollection<UserInterestGroup> UserInterestGroups { get; set; } = new();
+       
         
         public UserList()
         {
@@ -85,6 +85,23 @@ namespace EFCorePract.Pages
             else
             {
                 NavigationService.Navigate(new UserInGroup(user));
+            }
+        }
+
+        private void OnUserSelected(object sender, SelectionChangedEventArgs e)
+        {
+            if (UsersListView.SelectedItem is Users selectedUser)
+            {
+                user = selectedUser;
+                UserInterestGroups.Clear();
+
+                if (user.UserInterestGroups != null)
+                {
+                    foreach (var group in user.UserInterestGroups)
+                    {
+                        UserInterestGroups.Add(group);
+                    }
+                }
             }
         }
     }

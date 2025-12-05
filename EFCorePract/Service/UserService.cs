@@ -42,9 +42,11 @@ namespace EFCorePract.Service
         public void GetAll()
         {
             var users = _db.Users
-                .Include(s => s.UserProfile)
-                .Include(s=>s.Role)
-                .ToList( );
+            .Include(s => s.UserProfile)
+            .Include(s => s.Role)
+            .Include(s => s.UserInterestGroups) 
+            .ThenInclude(ug => ug.InterestGroup)
+            .ToList();
             Users.Clear();
             foreach (var user in users)
             {

@@ -33,7 +33,9 @@
         <ListView Grid.Row="1"
                   ItemsSource="{Binding service.Users}"
                   MouseDoubleClick="EditUser"
+                  x:Name="UsersListView"
                   SelectedItem="{Binding user}"
+                  SelectionChanged="OnUserSelected"
                   Style="{DynamicResource ListViewStyle}">
             <ListView.View>
                 <GridView>
@@ -61,21 +63,20 @@
         </ListView>
 
         <ListView
-                  ItemsSource="{Binding service2}"
+                  ItemsSource="{Binding UserInterestGroups}"
                   Grid.Row="1"
+                  
+                  SelectedItem="{Binding UserInterestGroups}"
                   Grid.Column="1">
-            <ListView.ItemTemplate>
-                <DataTemplate>
-                    <TextBlock>
-                        <Run Text="Группа"/>
-                        <Run Text="{Binding Title}"/>
-                        <Run Text="Описание"/>
-                        <Run Text="{Binding Description}"/>
-                        <Run Text="Модератор"/>
-                        <Run Text="{Binding IsModerator}"/>
-                    </TextBlock>
-                </DataTemplate>
-            </ListView.ItemTemplate>
+            <ListView.View>
+                <GridView>
+                    <GridView.Columns>
+                        <GridViewColumn Header="Группа" DisplayMemberBinding="{Binding InterestGroup.Title}"/>
+                        <GridViewColumn Header="Описание" DisplayMemberBinding="{Binding InterestGroup.Description}"/>
+                        <GridViewColumn Header="Модератор" DisplayMemberBinding="{Binding IsModerator}"/>
+                    </GridView.Columns>
+                </GridView>
+            </ListView.View>
         </ListView>
     </Grid>
 </Page>
